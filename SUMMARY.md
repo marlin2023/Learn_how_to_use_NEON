@@ -6,12 +6,12 @@
 
 ### Your Content
 
-* [NEON简介](structure.md)
-* [寄存器](syntax/datatype.md)
+* [NEON简介](neon_introduction.md)
+* [寄存器](neon_register.md)
 * [指令集](syntax/syntax.md)
-    * [数据加载](syntax/syntax.md#加载元素)
-    * [数据存储](syntax/syntax.md#存储元素)
-    * [数据类型转换](syntax/syntax.md#测试)
+    * [数据加载](syntax/load_data.md)
+    * [数据存储](syntax/store_data.md)
+    * [数据类型转换](syntax/syntax.md#测试二)
 * [eBook and PDF](ebook.md)
 
 --
