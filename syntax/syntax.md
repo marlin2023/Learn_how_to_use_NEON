@@ -1,20 +1,12 @@
-# Markdown
+# 语法
 
-Most of the examples from this documentation are in Markdown. Markdown is default parser for GitBook, but one can also opt for the [AsciiDoc syntax](asciidoc.md).
+本部分对常用的NEON指令进行介绍，会先介绍NEON intrinsics函数 ，然后再介绍与之对应的NEON汇编指令，最后跟着简单的例子。（实际开发中，即便是写汇编代码，使用intrinsics也有好处。先用intrinsics写好代码编译后在反汇编，在此基础上进行优化，可能比较省力。）
 
-Here’s an overview of Markdown syntax that you can use with GitBook (same as GitHub with some additions).
-
-### Headings
+### 加载元素 {#load_data}
 
 To create a heading, add one to six `#` symbols before your heading text. The number of # you use will determine the size of the heading.
 
-```markdown
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-```
-
-GitBook supports a nice way for explicitly setting the header ID. If you follow the header text with an opening curly bracket (separated from the text with a least one space), a hash, the ID and a closing curly bracket, the ID is set on the header. If you use the trailing hash feature of atx style headers, the header ID has to go after the trailing hashes. For example:
+opening curly bracket (separated from the text with a least one space), a hash, the ID and a closing curly bracket, the ID is set on the header. If you use the trailing hash feature of atx style headers, the header ID has to go after the trailing hashes. For example:
 
 ```markdown
 Hello {#id}
@@ -25,7 +17,7 @@ Hello {#id}
 # Hello # {#id}
 ```
 
-### Paragraphs and Line Breaks {#paragraphs}
+### 存储元素 {#store_data}
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
