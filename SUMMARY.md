@@ -12,6 +12,9 @@
     * [数据加载](syntax/load_data.md)
     * [数据存储](syntax/store_data.md)
     * [数据类型转换](syntax/syntax.md#测试二)
+* [使用实例](example/abstract.md)
+    * [NCHW->NHWC转换](example/nchw2nhwc.md) 
+* [数据类型转换](syntax/syntax.md#测试二)
 * [eBook and PDF](ebook.md)
 
 --

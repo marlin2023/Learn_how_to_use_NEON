@@ -1,6 +1,22 @@
-
-
 # load操作
+
+## 顺序load
+
+
+
+## 交错load
+
+
+
+## neon intrinsics 函数
+
+
+
+## neon汇编
+
+
+
+## 例子
 
 
 
